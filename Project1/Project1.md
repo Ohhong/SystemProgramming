@@ -40,10 +40,10 @@ opcodelist
 즉, system(..) 이나 exec(…) 와 같은 함수는 사용을 금합니다.  
 - dirent.h, sys/stat.h를 참조합니다.  
 - .과 ..는 포함되어도, 되어있지 않아도 관계없습니다.  
-- Dir의 결과를 출력할 때 실행 파일은 파일 이름 옆에 "*"표시를, 디렉터리는 '/'표시를 해야 합니다.  
+- Dir의 결과를 출력할 때 실행 파일은 파일 이름 옆에 "\*"표시를, 디렉터리는 '/'표시를 해야 합니다.  
 ex) sicsim> dir  
 Desktop/ Mail/ Work/  
-a.out* dead.letter Ingabi/ mail/  
+a.out\* dead.letter Ingabi/ mail/  
 
 ③ sicsim> q[uit]  
 - sicsim 을 종료한다.  
